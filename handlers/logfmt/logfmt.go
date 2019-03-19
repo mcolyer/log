@@ -33,7 +33,6 @@ func (h *Handler) HandleLog(e *log.Entry) error {
 	h.mu.Lock()
 	defer h.mu.Unlock()
 
-	h.enc.EncodeKeyval("timestamp", e.Timestamp)
 	h.enc.EncodeKeyval("level", e.Level.String())
 	h.enc.EncodeKeyval("message", e.Message)
 
