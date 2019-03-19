@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/apex/log"
+	"github.com/mcolyer/log"
 	"github.com/aybabtme/rgbterm"
 	"github.com/tj/go-spin"
 )

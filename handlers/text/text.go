@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/apex/log"
+	"github.com/mcolyer/log"
 )
 
 // Default handler outputting to stderr.

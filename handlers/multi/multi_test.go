@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/apex/log"
-	"github.com/apex/log/handlers/memory"
-	"github.com/apex/log/handlers/multi"
+	"github.com/mcolyer/log"
+	"github.com/mcolyer/log/handlers/memory"
+	"github.com/mcolyer/log/handlers/multi"
 )
 
 func init() {

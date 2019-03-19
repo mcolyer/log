@@ -2,7 +2,7 @@
 package graylog
 
 import (
-	"github.com/apex/log"
+	"github.com/mcolyer/log"
 	"github.com/aphistic/golf"
 )
 
